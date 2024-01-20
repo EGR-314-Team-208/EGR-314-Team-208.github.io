@@ -8,7 +8,7 @@ title:
 EGR314 Spring 2024: Team 208
 
 ## Members
-
+* Joaquin Jimenez
 * Enyinnaya Onyenso
 * Abner Oaxaca
 
