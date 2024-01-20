@@ -9,7 +9,8 @@ EGR314 Spring 2024: Team 208
 
 ## Members
 
-* Enyinnaya Onyenso
+* 
+
 
 **Bold Text**
 _Italic Text_
