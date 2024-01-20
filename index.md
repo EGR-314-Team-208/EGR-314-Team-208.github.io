@@ -10,6 +10,7 @@ EGR314 Spring 2024: Team 208
 ## Members
 
 * Enyinnaya Onyenso
+* Abner Oaxaca
 
 
 **Bold Text**
