@@ -4,24 +4,32 @@ title:
 
 # Home
 
-## Introduction
-EGR314 Spring 2024: Team 208
+(Project Name)
 
-## Members
+**Team 208**
 * Joaquin Jimenez
 * Enyinnaya Onyenso
 * Abner Oaxaca
 * Panagiotis Levendis
 
-**Bold Text**
-_Italic Text_
-**_Bold and Italic Text_**
+**Created:** 01/19/2024
 
-## Research Question
+**University:** Arizona State University 
 
-* Bullet Point 1
-* Bullet Point 2
-* Bullet Point 3
+**Course:** EGR-314 
+
+**Professor:** Travis Kelly
+
+## Team Organization
+
+### Charter
+
+Our team aims to influence how the weather forecast influence people's lives. We aim to achieve this by developing a user-friendly, eco-friendly and hands-free device that can detect and predict, based off past patterns, weather phenomenon.
+
+### Mission Statement
+
+Our product is dedicated to providing reliable, real-time weather information in a user-friendly manner, empowering individuals and communities for informed decision-making in various fields. Through innovative and eco-friendly technology, we aim to enhance accessibility to crucial weather insights, promoting safety, efficiency, and a deeper understanding of the natural environment, ultimately making a positive impact on the world.
+
 
 ## Background
 
