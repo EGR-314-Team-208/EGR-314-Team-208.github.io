@@ -35,7 +35,6 @@ Our product is dedicated to providing reliable, real-time weather information in
 ### Design Ideation
 
 ### Presentation 1
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,7 +43,7 @@ Our product is dedicated to providing reliable, real-time weather information in
 </head>
 <body>
     <!-- Paste the YouTube embed code here -->
-    <<iframe width="560" height="315" src="https://www.youtube.com/embed/BGyLUJeMTC4?si=PAAvUGec24lZHuFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BGyLUJeMTC4?si=PAAvUGec24lZHuFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
 
