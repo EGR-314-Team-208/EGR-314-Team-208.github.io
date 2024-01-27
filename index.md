@@ -50,21 +50,9 @@ Our product is dedicated to providing reliable, real-time weather information in
 ## External Links
 
 [example link to idealab](https://idealab.asu.edu)
-<html>
-<head>
-    <style>
-        body {
-            background-image: url(Cld_Sky.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            color: black; /* Set text color to make it readable */
-        }
-    </style>
-</head>
-<body>
 
 ## References
+
 [link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
 https://docs.google.com/forms/d/e/1FAIpQLSdXLx1iEeru9vTmoH6GWGyFcC0n7I4jpCyiKqvWAXg5kQOL_g/viewform
 https://www.warehouse-lighting.com/collections/ceiling-fan-parts
