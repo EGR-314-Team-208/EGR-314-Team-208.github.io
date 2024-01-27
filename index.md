@@ -51,11 +51,8 @@ Our product is dedicated to providing reliable, real-time weather information in
 
 ## External Links
 
-[example link to idealab](https://idealab.asu.edu)
+
 
 ## References
 
 [link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
-
-https://www.warehouse-lighting.com/collections/ceiling-fan-parts
-
