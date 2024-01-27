@@ -46,6 +46,7 @@ Our product is dedicated to providing reliable, real-time weather information in
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BGyLUJeMTC4?si=PAAvUGec24lZHuFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </body>
 </html>
+[Checkpoint 1 Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdXLx1iEeru9vTmoH6GWGyFcC0n7I4jpCyiKqvWAXg5kQOL_g/viewform)
 
 ## External Links
 
@@ -54,6 +55,6 @@ Our product is dedicated to providing reliable, real-time weather information in
 ## References
 
 [link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
-https://docs.google.com/forms/d/e/1FAIpQLSdXLx1iEeru9vTmoH6GWGyFcC0n7I4jpCyiKqvWAXg5kQOL_g/viewform
+
 https://www.warehouse-lighting.com/collections/ceiling-fan-parts
 
