@@ -25,7 +25,7 @@ title:
 - [User Needs, Benchmarking, and Requirements](#user-needs--benchmarking--and-requirements)
 - [Design Ideation](#design-ideation)
 - [Appendix](#appendix)
-  * [Team organization](#team-organization)
+  * [Team organization](#team-organization-1)
   * [Ordered User Needs and Benchmarking:](#ordered-user-needs-and-benchmarking-)
   * [PRD](#prd)
   * [Design Ideation](#design-ideation-1)
@@ -501,12 +501,15 @@ Regulatory Bodies: Organizations overseeing standards and regulations related to
 
 Use Cases
 User Story #1: David
+David is a 30 year old who has an office job. The only issue with his office job is during the summer there are some days that the a/c is not working as well as it should, meaning it is very hot inside the office. Although he would normally try and go home early on a day like this he has a ton of work he needs to get completed. Our product is able to detect the temperature in the office and cool him off despite it being so hot. The temperature reading fan allows David to not only feel comfortable inside his warm office but he is not distracted by the noise that comes from the fan. 
+It is very easy for David to use the fan because not only does it keep him comfortable but he is able to move it in any angle or direction he needs. Because he is able to take it with him anywhere he goes he has more uses than just the office! 
 
+User Story #2: Jonathan	
+	Johnathan is a 27 year old man who took his family to an amusement park. Although the family is having a lot of fun he notices that everyone is tired, not only from walking all day but from being in the sun. To help his family cool down he decides to purchase some water, but it is not enough! He remembers he has his fan and is able to use it to cool down his family. Because the fan is able to detect temperature, it will go at a pretty quick rate, that will be adjustable so it is able to cool down all of his family. After it turns dark the fan can also nearly seem like a toy, because of the lights that are all over the fan he is able to use it as a distraction for his children, while also keeping them cool!
 
-User Story #2: 
+User Story #3: Sarah
+35-year-old Sarah is a small poultry farmer from Texas. She keeps chickens, guinea fowl and turkeys. During the winter and summer seasons, Sarah’s farm requires constant temperature control for her birds. Recently, Sarah has been researching the use of a mobile weather station to aid in this endeavor. A mobile weather station detects rainfall, temperature, humidity, wind speed and wind chill along with other relevant data and transmits the data to a server. This data can then be accessed by Sarah’s smartphone or computer to determine the weather surrounding his farm, which can then be used to properly keep his birds healthy and warm.
 
-
-User Story #3: 
 
 
 Aspects
@@ -578,10 +581,9 @@ Innovation Showcase: April 26, 2024
 
 ## External Links
 
-[example link to idealab](https://idealab.asu.edu)
-[Team Organization]()
-[User Needs, Benchmarking, and Requirements]()
-[Design Ideation]()
+[Team Organization](/Team%20Organization%20Charter%20.docx.txt)
+[User Needs, Benchmarking, and Requirements](/User%20Needs,%20Benchmarking,%20and%20Requirements.docx.txt)
+[Design Ideation](/Design%20Ideation.docx.txt)
 
 ## References
 
