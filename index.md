@@ -30,20 +30,23 @@ Our team aims to influence how the weather forecast influence people's lives. We
 
 Our product is dedicated to providing reliable, real-time weather information in a user-friendly manner, empowering individuals and communities for informed decision-making in various fields. Through innovative and eco-friendly technology, we aim to enhance accessibility to crucial weather insights, promoting safety, efficiency, and a deeper understanding of the natural environment, ultimately making a positive impact on the world.
 
+### User Needs, Benchmarking, and Requirements
 
-## Background
+### Design Ideation
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
-
-[link to background](/background)
-
-## Results
-
-1. Numbered Point 1
-1. Numbered Point 2
-1. Numbered Point 3
-
-## Conclusions and Future Work
+### Presentation 1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Presentation</title>
+</head>
+<body>
+    <!-- Paste the YouTube embed code here -->
+    <<iframe width="560" height="315" src="https://www.youtube.com/embed/BGyLUJeMTC4?si=PAAvUGec24lZHuFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>>
+</body>
+</html>
 
 ## External Links
 
@@ -51,7 +54,7 @@ Our product is dedicated to providing reliable, real-time weather information in
 
 
 ## References
-https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git 
+[link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
 https://docs.google.com/forms/d/e/1FAIpQLSdXLx1iEeru9vTmoH6GWGyFcC0n7I4jpCyiKqvWAXg5kQOL_g/viewform
 https://www.warehouse-lighting.com/collections/ceiling-fan-parts
 
