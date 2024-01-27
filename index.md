@@ -50,7 +50,19 @@ Our product is dedicated to providing reliable, real-time weather information in
 ## External Links
 
 [example link to idealab](https://idealab.asu.edu)
-
+<html>
+<head>
+    <style>
+        body {
+            background-image: url(Cld_Sky.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white; /* Set text color to make it readable */
+        }
+    </style>
+</head>
+<body>
 
 ## References
 [link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
