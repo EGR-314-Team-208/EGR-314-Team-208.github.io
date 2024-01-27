@@ -586,6 +586,3 @@ Innovation Showcase: April 26, 2024
 ## References
 
 [link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
-
-https://www.warehouse-lighting.com/collections/ceiling-fan-parts
-
