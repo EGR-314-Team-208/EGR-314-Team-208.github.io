@@ -58,7 +58,7 @@ Our product is dedicated to providing reliable, real-time weather information in
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            color: white; /* Set text color to make it readable */
+            color: black; /* Set text color to make it readable */
         }
     </style>
 </head>
