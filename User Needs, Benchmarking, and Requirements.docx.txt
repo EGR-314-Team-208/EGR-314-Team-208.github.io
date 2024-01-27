@@ -1,164 +1,4 @@
----
-title: 
----
-
-# Home
-
-(Project Name)
-
-**Team 208**
-* Joaquin Jimenez
-* Enyinnaya Onyenso
-* Abner Oaxaca
-* Panagiotis Levendis
-
-**Created:** 01/19/2024
-
-**University:** Arizona State University 
-
-**Course:** EGR-314 
-
-**Professor:** Travis Kelly
-
-- [Introduction](#introduction)
-- [Team Organization](#team-organization)
-- [User Needs, Benchmarking, and Requirements](#user-needs--benchmarking--and-requirements)
-- [Design Ideation](#design-ideation)
-- [Appendix](#appendix)
-  * [Team organization](#team-organization)
-  * [Ordered User Needs and Benchmarking:](#ordered-user-needs-and-benchmarking-)
-  * [PRD](#prd)
-  * [Design Ideation](#design-ideation-1)
-
-## Team Organization
-
-### Charter
-
-Our team aims to influence how the weather forecast influence people's lives. We aim to achieve this by developing a user-friendly, eco-friendly and hands-free device that can detect and predict, based off past patterns, weather phenomenon.
-
-### Mission Statement
-
-Our product is dedicated to providing reliable, real-time weather information in a user-friendly manner, empowering individuals and communities for informed decision-making in various fields. Through innovative and eco-friendly technology, we aim to enhance accessibility to crucial weather insights, promoting safety, efficiency, and a deeper understanding of the natural environment, ultimately making a positive impact on the world.
-
-## User Needs, Benchmarking, and Requirements
-
-We identified our user needs by conducting research on products that are on the market. By combing through the pages of reviews, five stars to one star, we were able to distill what the user was looking for in a mobile weather station. Our team specifically picked out smart fans and anemometers as a market to pursue and from what we gathered, the user needs were apparent. By going through the reviews of popular and unpopular wind devices, we identified sore spots or highlights the consumer continuously pointed out in their reviews. We took these pain points and praises, separated out the fluff and kept what was relevant to us, dividing this data up into two categories, Latent and Explicit. Explicit being more easily identifiable pain points and Latent being points that are more difficult to pin down as to why they're frustrating. We then took these points and turned them into specifications from where our product can draw its strengths from. To ensure these specifications our design will revolve around we will constantly be referring to our list of product requirements to make sure we incorporate them in our product. Our product requirements list is our most purest form of user needs that relate specifically to our device and with this list we can asses our device according to it. Some standout requirements included the device should withstand extreme heat and cold temperatures, the device is made from durable material, the device should include an emergency switch and the device should have intuitive user control. The focus of our project is in creating a device capable of reading wind speed and temperature and using the information to heat or cool the room. For the full list of product requirements and user needs they can be found in the appendix.
-
-## Design Ideation
-
-Every team member played the key role in the design process, we each came up with a list of ideas for a design concept which was bounced around. We used a couple of different brainstorming methods including mind mapping, figure storming, rapid ideation and analyzing customer reviews. Everyone was able to pitch their ideas and we voted on which would be the best device for our group and the projects scope. We then took these ideas and ranked them with a 3 star system, 1 being the least important and 3 being the most important. Then we created a concept of our device around the ideas we ranked so we can have the most variety and originality as possible in our device. The concepts can be found in the appendix.
-
-## Presentation 1
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Presentation</title>
-</head>
-<body>
-    <!-- Paste the YouTube embed code here -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BGyLUJeMTC4?si=PAAvUGec24lZHuFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</body>
-</html>
-
-[Checkpoint 1 Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdXLx1iEeru9vTmoH6GWGyFcC0n7I4jpCyiKqvWAXg5kQOL_g/viewform)
-
-## Appendix
-
-### Team organization
-Team Organization Charter
-Team Goals
-1. Develop a user-friendly hands-free device that is both straightforward in operation and requires minimal maintenance.
-2. Utilize sustainable designs and materials to create an environmentally-friendly product.
-3. Develop a product that achieves a positive reception with our target audience.
-4. Aim to create a project that serves as a valuable addition to each team member's portfolio.
-5. Cultivate a positive work environment conducive to building meaningful connections.
-6. Working together efficiently as a team and communicating effectively so we can be prepared to work in real world situations with people in a work environment.
-7. Create a working environment where not only are we comfortable asking each other for help but where we are also able to learn from each other. 
-Product Mission Statement
-The mission of our product is to provide individuals and communities with reliable, real-time weather information. Our product aims to empower users by offering a compact, user-friendly, accessible solution that delivers accurate meteorological data, fostering informed decision-making for outdoor activities, agriculture, emergency preparedness, and more. Through innovative technology and a commitment to eco-friendly technology, our mission is to enhance accessibility to crucial weather insights, promoting safety, efficiency, and a deeper understanding of the natural environment. We believe our product can make a positive impact on the world around us and impact the decision making of its users.
-Communication Channels 
-The Table 1 below outlines the various ways information is exchanged and interactions occur within a given context.
-Name 
-	First Choice of Communication
-	Second Choice of Communication
-	Third Choice of Communication
-	Joaquin Jimenez 
-	Text Message
-	Discord
-	Email
-	Abner Oaxaca
-	Text Message
-	Discord
-	Email
-	Panagiotis Levendis
-	Text Message 
-	Discord
-	Email
-	Enyinnaya Onyenso
-	Text Message
-	Discord
-	Email
-	Table 1: Team Members Communication Modes
-Communication Procedures
-We will communicate via Text Message, Discord, Email. Text messages would be to communicate faster and quick questions (e.g., “where are we at with the assignment?”, “We should meet this day?”). With Discord we would like to make a call/video meeting for any team assignment/project stuff, share ideas, even help with homework, etc. And email will be a last resort of communication.
-
-
-Handling instructor correspondence will be a shared responsibility within the team. We will designate a point of contact for direct communication with the instructor, ensuring a streamlined and consistent approach. Updates and relevant information will be promptly communicated back to the group through regular team meetings or a designated communication channel to keep everyone informed and aligned.
-Meeting Schedule 
-Table 2 insights into the availability of each team member and the time everyone can meet.
-  
-Table 2: Team’s Availability and Contact Information
-Meeting Coordination
-The group plans to utilize a shared calendar as a method of coordination. Weekly reminders and updates will be communicated to the team to address any necessary accommodations. Additionally, the group prefers to conduct Discord calls for discussions.
-Roles and Responsibilities 
-Table 3 Identifies the role and responsibilities each team member is going to meet.
-Roles
-	Duties 
-	Meeting Leader: Panagiotis Levendis 
-	Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting
-	Meeting Recorder: Joaquin Jimenez
-	Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned
-	Assignment Leader: Abner Oaxaca
-	Coordinates the team's work on a given assignment to Canvas before the due date
-	Project Monitor: Enyinnaya Onyenso
-	Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status
-	Table 3: Project Roles and Duties
-
-
-* As a team we will decide if project roles need to be changed after each checkpoint.
-
-
-* We will decide who is assigned to each role depending on individual experiences and technical knowledge, for the best assignment requirements.
-
-
-* Checkinging in on each other to make sure everyone is making progress and understands the assignments and project.
-
-
-* We will be able to identify any role or responsibility changes based on communication, if anyone is struggling with a specific responsibility we will try to help as a team but if we need to adjust we will try to distribute work evenly between group members. 
-
-
-* Team activities and milestones will be tracked using the assignments and checkpoints as larger beacons of progress, while internal milestones and goals will be checked through our communication routes.
-
-
-* We will assign technical responsibilities by who has the most knowledge and experience with the task, otherwise by volunteering.
-
-
-Team Coordination and Accountability
-Send a text message to the group to confirm that the task is nearing completion, ensuring that everyone is aware. Encourage peer checking or double-checking to catch any potential omissions. It is crucial to verify that each team member possesses the necessary knowledge and skills for their respective assignments. In case of any gaps, foster discussions among team members to enhance, support, and adjust task assignments as needed, optimizing the collective capabilities of the team. After an assignment is graded, share the received feedback with others and engage in discussions on areas of improvement, reflecting on what could have been done differently to enhance future assignments.
-
-
-Ensuring improvement in the future hinges on addressing any missed contributions, assignments, or actions; holding team members accountable to the expectations in the charter is paramount for maintaining a high standard of performance. Early recognition of underperforming team members allows for focused collaborative efforts to facilitate improvement.
-Conflict Recognition and Resolution
-As a team, we will proactively address differences of opinion by openly recognizing and acknowledging disagreements, understanding that controversy is a normal aspect of collaboration. Additionally, we commit to preventing conflicts of interest by clarifying project roles and responsibilities, resolving any conflicts internally, and establishing clear criteria for escalating issues to the instructor when necessary.
-Signatures 
-Panagiotis Levendis 
-Abner Oaxaca
-Enyinnaya Onyenso
-Joaquin Jimenez
-
-### Ordered User Needs and Benchmarking
-User Needs, Benchmarking, and Requirements
+﻿User Needs, Benchmarking, and Requirements
 TEAM 208- Abner Oaxaca, Enyinnaya Onyenso, Joaquin Jimenez, Panagiotis Levendis
 
 
@@ -431,6 +271,15 @@ The only thing I could say about it is that it’s a little bit loud, even on th
 	* The size of the fan is convenient (Explicit)
 * The fan has good quality (Explicit)
 * The product is effective (Latent )
+	
+
+
+
+
+
+
+
+
 
 Negative Comments 
 Voice of Customer 
@@ -448,6 +297,25 @@ spent an hour looking around the house and gave up because the smell was so fain
 
 	Organize
 
+
+
+
+  
+                                                                                                                                                                                                         
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+  
  = User Friendly 
 Meta: The product should be convenient for the user making it easy to use. 
 
@@ -470,122 +338,31 @@ Meta: The product should be accessible to anyone who would be interested in it.
   
 = Comfort
 Meta: When using or looking at the product the user should feel comfortable.
+  
+                                                                                                                                                                                                         
+  
+  
+  
+  
+
+
 
 3 = Most Important 
 2 = Moderately Important 
 1 = Least Important 
 
+
+  
+                                                                                                                                                                                                         
+  
+  
+  
+  
+
+
+
+
+
 Develop Requirements
 Using the process laid out previously in this document and a template found by the teaching
 team, we created a separate document to condense the information relevant to the project. (Link)
-
-### PRD
-Product Requirements Document
-Project B298
-EGR 314
-Team 208
-Project Manager: John Doe
-Date of Creation: 01/17/2024
-Version 1.0
-Introduction
-A portable fan controlled by sensors represents a modern and efficient approach to personal cooling solutions. By integrating sensors that monitor temperature, wind speed, or humidity, this innovative fan offers a dynamic and responsive cooling experience tailored to individual preferences. This introduction sets the stage for exploring the objectives, stakeholders, use cases, aspects, open questions, milestones, and an explanation of terms associated with this technology.
-Objectives
-
-
-Stakeholders
-Consumers: Individuals seeking efficient and personalized cooling solutions.
-Manufacturers: Companies involved in designing, producing, and marketing portable fans with sensor-based control.
-Technology Providers: Entities supplying the sensors and smart technology integrated into the fan.
-Regulatory Bodies: Organizations overseeing standards and regulations related to fan safety and performance.
-
-
-Use Cases
-User Story #1: David
-
-
-User Story #2: 
-
-
-User Story #3: 
-
-
-Aspects
-1.         Product Design
-The new product design will be based on that of existing digital fans with improvements based on the following requirements:
-1.1   The product shall be made of weather resistant material. (P9)
-1.2   The product shall include hardware that is easy to access.(P8)
-1.3   The product shall be easily cleansed.(P9)
-1.4   The blades included in the product shall be safe but also effective. (P9)
-1.5   The product shall be customizable in some way so the user feels like it is their own. (P8)
-1.6   The product’s shape will facilitate better air flow. (P5)
-1.7  The product shall have a maximum size of 100 x 100 mm. (P10)
-1.8  The product shall have a maximum of 3.3V. (P10)
-2           Functionality
-2.1   The rate of the fan shall spin at a comfortable speed. (P7)
-2.2   The product shall be able to determine temperature so the rate of the fan is spinning at a rate that would be useful for the user. (P9)
-2.3   The product shall be able to determine wind speed. (P8)
-2.4   The product shall indicate temperature in some way.(P8)
-3           Interactivity
-3.1   The user shall feel comfortable setting up the product. (P8)
-3.2   The user shall not have any issues understanding the product. (P8)
-3.3   The product shall be easy to carry around. (P7)
-3.4   The product shall not be too noisy for the user. (P8)
-3.5   The user interface shall be intuitive for all users after a single moment of learning how it works. (P9)
-3.6   The product shall not be heavy. (P8)
-3.7   It shall be easy for the user to start up the product. (P7)
-3.8   The product shall be designed so as to prevent accidental use. (P8)
-4           Customization
-4.1   The product shall be able to use lights that can indicate wind speed. (P7)
-4.2   The product shall be able to switch the color of the lights at the user's discretion. (P6)
-4.3   There shall be LEDs on the blades that will indicate the speed of the fan. (P5)
-4.4   The color of the blades shall be able to be changed based on the user. (P6)
-4.5   The user shall be able to control the speed of the fan. (P7)
-5           Manufacturing
-5.1   The total FOB cost price of the product shall be <$240. (P9)
-5.2   The product shall be made out of a durable material. (P9)
-5.3   The product shall be designed to assemble in under 60 seconds. (P7)
-5.4   The position of any component cannot change during assembly. (P10)
-5.5   The blades shall be made out of a material that allows for the most efficient spin rate. (P8)
-5.6   The build of the product shall be determined based on safety and efficiency.(P10)
-5.7   The materials shall be cheap so it is easily produced. (P6)
-5.8   The battery life for the materials shall be durable. (P7)
-5.9    The product shall be able to withstand a diverse range of environments. (P8)
-6           Regulations/Safety
-6.1   The product shall not have any exposing wires. (P10)
-6.2   The product shall not overheat to the point it is dangerous. (P10)
-6.3   The product shall not have sharp blades. (P10)
-6.4   If the product uses batteries, they shall be out of reach. (P10)
-6.5   The product shall not have small pieces. (P10)
-6.6   The product shall not be too bright. (P10)
-6.7    The product shall not have a voltage higher than 3.3V. (P10)
-
-
-Open Questions
-* Can we improve the safety of our product?
-* Can we make the product more user-friendly?
-* Can we improve data accuracy and transmission?
-* Can we integrate the data into smart home systems?
-* What changes can be made to make the product more customizable?
-* What changes can we make to the product to achieve better user satisfaction?
-Milestones
-Concept presentation: January 19, 2024
-Design presentation:
-Design freeze:
-Innovation Showcase: April 26, 2024
-
-### Design Ideation
-
-
-## External Links
-
-[example link to idealab](https://idealab.asu.edu)
-[Team Organization]()
-[User Needs, Benchmarking, and Requirements]()
-[Design Ideation]()
-
-## References
-
-[link to github home](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io.git)
-
-https://www.warehouse-lighting.com/collections/ceiling-fan-parts
-
