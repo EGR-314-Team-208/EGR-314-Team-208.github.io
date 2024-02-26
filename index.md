@@ -63,6 +63,18 @@ Every team member played the key role in the design process, we each came up wit
 
 [Checkpoint 1 Feedback](https://docs.google.com/forms/d/e/1FAIpQLSdXLx1iEeru9vTmoH6GWGyFcC0n7I4jpCyiKqvWAXg5kQOL_g/viewform)
 
+## Selected Design
+
+## Block Diagram 
+
+## Compenent Selection
+
+## Microcontroller Selection
+
+## Hardware Proposal
+
+## Software Proposal
+
 ## Appendix
 
 ### Team organization
