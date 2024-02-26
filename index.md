@@ -73,6 +73,8 @@ Every team member played the key role in the design process, we each came up wit
 
 ## Hardware Proposal
 
+[Projects Schematics](teambom5.pdf)
+
 ## Software Proposal
 
 ## Appendix
