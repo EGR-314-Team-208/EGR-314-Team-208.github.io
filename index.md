@@ -77,6 +77,8 @@ Every team member played the key role in the design process, we each came up wit
 
 ## Software Proposal
 
+![Software Propsol]https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io/issues/2#issue-2155353654
+
 ## Appendix
 
 ### Team organization
