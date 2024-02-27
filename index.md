@@ -66,9 +66,8 @@ Every team member played the key role in the design process, we each came up wit
 ## Selected Design
 
 The design we decided to pursue was the fan concept. We chose it for a few reasons including its simplicity. The aim of our group is to produce a product that adheres as closely to the product requirements and and user needs as possible which is attainable with the simplicity of the concept. Another reason we chose the fan was because it showcases all the strengths and weaknesses of each subsystem making debugging and testing easier in the later stages of the project.
-|  |  |
-|----------|----------|
-| <img src="images/design1.png"> | <img src="images/design2.png"> |
+
+<img src="images/design1.png"> <img src="images/design2.png">
 
 ## Block Diagram 
 <img src="images/blockdiagram.png">
@@ -88,11 +87,11 @@ The wind speed sensor and motor subsystem interface through the Serial Periphera
 | Motor Driver | Class experience and designed to operate at 3.3V, with a favorable data sheet and notable features including low standby current. | Most expensive option |
 | Motor | Power rated at 2.2 W and most efficient at 290mA | Most expensive option, not as quick as other options |
 | Voltage Regulator | Familiarity, output is 3.3V and adjustable,great documentation | Overheats easily under over load current |
-| Power Supply |  |  |
+| Power Supply:6LF22XWA/B 9V battery | Sufficient life, easily replaceable, inexpensive | Requires fasteners |
 
 ## Microcontroller Selection
 
-PIC18F46K42
+Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 40 pin microcontroller with 2 I2C pins and 1 SPI pin. We chose it due to it's expansive datasheet and availability of external use documentation. It operates at 1.8V and has a max current of 350mA.
 
 ## Hardware Proposal
 
