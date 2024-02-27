@@ -22,11 +22,11 @@ title:
 
 - [Introduction](#introduction)
 - [Team Organization](#team-organization)
-- [User Needs, Benchmarking, and Requirements](#user-needs--benchmarking--and-requirements)
+- [User Needs, Benchmarking, and Requirements](#user-needs-benchmarking-and-requirements)
 - [Design Ideation](#design-ideation)
 - [Appendix](#appendix)
   * [Team organization](#team-organization-1)
-  * [Ordered User Needs and Benchmarking:](#ordered-user-needs-and-benchmarking-)
+  * [Ordered User Needs and Benchmarking:](#ordered-user-needs-and-benchmarking)
   * [PRD](#prd)
   * [Design Ideation](#design-ideation-1)
 
