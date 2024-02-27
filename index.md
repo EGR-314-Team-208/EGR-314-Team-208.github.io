@@ -97,6 +97,8 @@ PIC18F46K42
 
 [software proposal](images/softwareproposal.png)
 
+![Software Propsol](https://github.com/EGR-314-Team-208/EGR-314-Team-208.github.io/issues/2#issue-2155353654)
+
 ## Appendix
 
 ### Team organization
