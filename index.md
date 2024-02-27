@@ -65,13 +65,19 @@ Every team member played the key role in the design process, we each came up wit
 
 ## Selected Design
 
+The design we decided to pursue was the fan concept. We chose it for a few reasons including its simplicity. The aim of our group is to produce a product that adheres as closely to the product requirements and and user needs as possible which is attainable with the simplicity of the concept. Another reason we chose the fan was because it showcases all the strengths and weaknesses of each subsystem making debugging and testing easier in the later stages of the project.
+| <img src="images/design1.png"> | <img src="images/design2.png"> |
 
 ## Block Diagram 
 <img src="images/blockdiagram.png">
 
+The wind speed sensor and motor subsystem interface through the Serial Peripheral Interface (SPI) communication protocol, enabling efficient data exchange and control. Meanwhile, the temperature sensor operates using the I2C protocol, providing accurate temperature readings. The microcontroller serves as the central orchestrator, managing communication between all subsystems and interfacing with the ESP32 for broader connectivity. This collaborative approach ensures a cohesive integration of diverse functionalities, leveraging distinct communication protocols for optimal performance and fulfilling the overall project objectives effectively.
+
 [block diagram](images/blockdiagram.png)
 
 ## Component Selection
+
+
 
 | Component | Pros | Cons |
 |----------|----------|----------|
