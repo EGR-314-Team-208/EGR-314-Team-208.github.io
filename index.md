@@ -104,7 +104,7 @@ Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 40 pin microcontrolle
 [Projects Schematics](docs/teambom.pdf)
 
 ## Software Proposal
-<img src="images/softwareproposal.png">
+<img src="images/swpr.png">
 
 [software proposal](images/softwareproposal.png)
 
