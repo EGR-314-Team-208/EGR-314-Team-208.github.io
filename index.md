@@ -89,6 +89,10 @@ The wind speed sensor and motor subsystem interface through the Serial Periphera
 | Voltage Regulator | Familiarity, output is 3.3V and adjustable,great documentation | Overheats easily under over load current |
 | Power Supply:6LF22XWA/B 9V battery | Sufficient life, easily replaceable, inexpensive | Requires fasteners |
 
+Power Budget
+
+[Power Budget](docs/pwbud.pdf)
+
 ## Microcontroller Selection
 
 Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 40 pin microcontroller with 2 I2C pins and 1 SPI pin. We chose it due to it's expansive datasheet and availability of external use documentation. It operates at 1.8V and has a max current of 350mA.
