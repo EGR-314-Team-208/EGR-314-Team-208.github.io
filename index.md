@@ -65,17 +65,37 @@ Every team member played the key role in the design process, we each came up wit
 
 ## Selected Design
 
-## Block Diagram 
 
-## Compenent Selection
+## Block Diagram 
+<img src="images/blockdiagram.png">
+
+[block diagram](images/blockdiagram.png)
+
+## Component Selection
+
+| Component | Pros | Cons |
+|----------|----------|----------|
+| Temperature Sensor: AT30TS74-SS8M-B | The AT30TS74-SS8M-B has a high operating temperature range, makes use of I2C which satisfies a course requirement and has good documentation to facilitate working with it |  |
+| Wind Speed Sensor: Adafruit 1733 | A ton of external documentation and use cases for easy use debugging | Lack of a readable datasheet (available in Chinese) |
+| Motor Driver | Class experience and designed to operate at 3.3V, with a favorable data sheet and notable features including low standby current. | Most expensive option |
+| Motor | Power rated at 2.2 W and most efficient at 290mA | Most expensive option, not as quick as other options |
+| Voltage Regulator | Familiarity, output is 3.3V and adjustable,great documentation | Overheats easily under over load current |
+| Power Supply |  |  |
 
 ## Microcontroller Selection
 
+PIC18F46K42
+
 ## Hardware Proposal
 
-[Projects Schematics](teambom5.pdf)
+<img src="images/teambom.png">
+
+[Projects Schematics](docs/teambom.pdf)
 
 ## Software Proposal
+<img src="images/softwareproposal.png">
+
+[software proposal](images/softwareproposal.png)
 
 ## Appendix
 
@@ -592,6 +612,159 @@ Innovation Showcase: April 26, 2024
 
 ### Design Ideation
 
+### Component Selection
+Team 208 Component Selection
+Major components
+
+Temperature Sensor 
+Solution 	Pros	Cons
+Option 1: AT30TS74-SS8M-B
+ 
+Digital Temperature Sensor, Local -55°C ~ 125°C 11 b 8-SOIC
+$0.82/each
+Link to Product
+•	High operating temperature range (-55 C ~ 125C)
+•	Uses I2C Serial Interface
+•	Configurable temperature limits
+•	Inexpensive	
+Option 2: MCP9700T-E/TT
+ AnalogTemperature Sensor, Local -40°C ~ 125°C 10mV/°C SOT-23-3
+$0.30/each
+Link to Product
+•	High operating temperature range (-40 C ~ 125C)
+•	Inexpensive	•	Analog output, requires ADC
+•	+/- 6 degree accuracy
+Option 3: NCT75MNR2G
+ 
+Digital Temperature Sensor, Local -55°C ~ 125°C 11 b 8-DFN (2x2)
+$0.83/each
+Link to Product
+•	High operating temperature range (-55 C ~ 125C)
+•	Accuracy of 1°C	•	Voltage supply of 3V -5.5V
+Choice: AT30TS74-SS8M-B
+Rationale: The AT30TS74-SS8M-B has a high operating temperature range, makes use of I2C which satisfies a course requirement and has good documentation to facilitate working with it.
+Wind Speed Sensor 
+Solution 	Pros	Cons
+Option 1: 1528-1328 (1733)
+ Adafruit Wind Speed Sensor Analog Voltage Output
+$44.95/each
+Link to product
+•	Readily available examples and use documentation.
+•	Works with a 16-bit	•	Expensive
+•	7-24V voltage range (9V Recommended)
+•	Note: not much info in the datasheet
+Option 2: SEN0483
+ 
+Wind Speed Sensor Analog Output
+$45/each
+Link to Product
+•	Accuracy of +/- 0.3 m/s
+•	Measuring range of 32.4m/s
+•	Compact size, easy to carry, easy to install	•	Expensive
+•	Supply voltage 7- 24V
+Option 3: DWS-V-DAC13
+ 
+Wind Velocity Sensor
+$1,696.70
+Link to product
+•	It is used in many applications
+•		•	Expensive
+•	10 - 28 V
+Choice: Adafruit 1733
+Rationale: Despite being expensive, the1733 demonstrated to have good qualities. 
+
+Motor Driver
+Solution 	Pros	Cons
+Option 1: 
+IFX9201SGAUMA1
+$4 Each 
+Link to Product
+•	Experience with it in class. 
+•	Work with 3.3V (what we intend on using)
+•	Has a very good data sheet 
+•	Low standby current 	•	Most expensive option.
+•	It has many pins (can be difficult to solder)
+
+Option 2:
+ 
+
+A3909GLYTR-T
+
+$1.50 Each
+Link to Product
+•	Most inexpensive option. 
+•	1A for output current 
+•	Supply Voltage at 12V
+•	Very good datasheet.
+	•	No experience with this option 
+•	Has many pins (may be difficult to solder)
+•	Power supply at 4V when we are using 3.3V 
+•	Does not show SPI channels 
+
+Option 3:
+ 
+BD6221F-E2
+
+$2.74 Each 
+Link to Product
+•	Not as expensive as option 1
+•	Has the least pins, it may be easier to use or set up. 
+•	May be easier to solder than other options. 
+•	Vref 3-15V	•	No experience with this option 
+•	Does not show SPI channels
+•	Not a very good datasheet (does not tell you how to work with it) 
+Choice:IFX9201SGAUMA1
+Rationale: This seems like the best option for the application because we already are working with it, although it is the most expensive option and has the most pins, I believe already knowing how it works cancels all that out. 
+Motor
+Solution 	Pros	Cons
+Option 1:
+ 
+M1N10FB11G
+$3.38 Each
+Link to Product
+•	Very easy to get/inexpensive
+•	Has a good operating voltage (1-5v)
+•	A fast motor which gives us more speeds to work with. 
+	•	Very high starting current (874mA)
+•	5V Rated Voltage
+•	Motor is most efficient around 500mA
+
+Option 2:
+ 
+VQ4TL2BQ380001
+$3.61 Each 
+Link to Product
+•	Has a operating voltage around 3V
+•	Inexpensive
+•	Stall Current at 130mA
+•	Starting Voltage 2V	•	Torque is concerningly low, may not be able to spin anything too quick (for our application this is very important) 
+Option 3: 
+PKN12EB105C1
+ 
+
+
+$3.99
+Link to Product
+	
+
+•	Power rated at 2.2 W
+•	Most efficient at 290mA
+•	Current at Max Power is 500mA
+	•	Most expensive option
+•	It is small  
+•	 Not as quick as other options 
+
+Choice:PKN12EB105C1
+Rationale: Although the motor is very small, because we are flexible with the material of our project we can possibly implement smaller blades so we could use the small motor. This option also seems to be the most efficient compared to the other two options and seems more friendly toward our constraints.
+
+### Microcontroller Selection
+
+[microcontroller selection table](docs/microcontrollerselectiontable.pdf)
+
+
+### Hardware Proposal
+
+### Software Proposal
 
 ## External Links
 
