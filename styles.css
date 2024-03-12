@@ -95,8 +95,6 @@ header{
     background-color: #159957;
     background-image: linear-gradient(120deg, #155799, #159957);
     box-shadow: var(--box-shadow-sm);
-    position: sticky;
-	top: 0;
 }
 
 h1, h2, h3{
