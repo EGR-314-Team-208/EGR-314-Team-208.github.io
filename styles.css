@@ -235,6 +235,7 @@ table {
 
   th {
     background-color: var(--teal);
+    color: var(--white);
   }
 
 #teamorg, #presentation1, #blockdiagram, #compsel, #hwprop, #swprop {
