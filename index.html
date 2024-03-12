@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Your Project Website</title>
+        <title>Team 208 Report</title>
 
         <!-- THIS META TAG IS INCLUDED BECAUSE THIS PAGE IS RESPONSIVE -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,7 +16,7 @@
     </head>
     <body>
         <header>
-            <h1>Your&nbsp;Project</h1>
+            <h1>Team&nbsp;208 Report</h1>
             <nav id="nav1">
                 <ul>
                     <li><a href="#teamorg">Team Organization</a></li>
@@ -33,6 +33,27 @@
         </header>
 
         <main>
+            <section>
+                <h2>Team Members</h2>
+                <ul>
+                    <li>Joaquin Jimenez</li>
+                    <li>Enyinnaya Onyenso</li>
+                    <li>Abner Oaxaca</li>
+                    <li>Panagiotis Levendis</li>
+                </ul> 
+            </section>
+            <section>
+                <dl>
+                    <dt>Created:</dt>
+                    <dd>01/19/2024</dd>
+                    <dt>University:</dt>
+                    <dd>Arizona State University</dd>
+                    <dt>Course:</dt>
+                    <dd>EGR-314</dd>
+                    <dt>Professor:</dt>
+                    <dd>Travis Kelly</dd>
+                </dl>
+            </section>
             <div class="grid-container">
                 <section id="teamorg">
                     <h2>Team Organization</h2>
@@ -67,6 +88,7 @@
                         <h3>Selected Design</h3>
                         <!-- Content for Selected Design section goes here -->
                         <p>The design we decided to pursue was the fan concept. We chose it for a few reasons including its simplicity. The aim of our group is to produce a product that adheres as closely to the product requirements and and user needs as possible which is attainable with the simplicity of the concept. Another reason we chose the fan was because it showcases all the strengths and weaknesses of each subsystem making debugging and testing easier in the later stages of the project.</p>
+                        <img src="images/selidea.jpg" alt="Selected Design, fan with wind speed and temperature sensors">
                     </section>
                 </section>
             
@@ -80,6 +102,7 @@
                 <section id="blockdiagram">
                     <h2>Block Diagram</h2>
                     <!-- Content for Block Diagram section goes here -->
+                    <img src="images/Block Diagram.jpg" alt="Block Diagram">
                     <p>The wind speed sensor and motor subsystem interface through the Serial Peripheral Interface (SPI) communication protocol, enabling efficient data exchange and control. Meanwhile, the temperature sensor operates using the I2C protocol, providing accurate temperature readings. The microcontroller serves as the central orchestrator, managing communication between all subsystems and interfacing with the ESP32 for broader connectivity. This collaborative approach ensures a cohesive integration of diverse functionalities, leveraging distinct communication protocols for optimal performance and fulfilling the overall project objectives effectively.</p>
                 </section>
             
@@ -87,26 +110,25 @@
                     <h2>Component Selection</h2>
                     <!-- Content for Component Selection section goes here -->
                     
-                    <section id="powerbudget">
-                        <h3>Power Budget</h3>
-                        <!-- Content for Power Budget section goes here -->
-                    </section>
+                    <p><a href="docs/pwbud.pdf" target="_blank">Power Budget</a></li></p>
 
                     <section id="microcontrollerselection">
                         <h3>Microcontroller Selection</h3>
                         <!-- Content for Microcontroller Selection section goes here -->
-                        <p>Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 40 pin microcontroller with 2 I2C pins and 1 SPI pin. We chose it due to it's expansive datasheet and availability of external use documentation. It operates at 1.8V and has a max current of 350mA.</p>
+                        <p><img src="images/medium-pic18f46k42-tqfp-44.jpg" alt="PIC18F46K42">Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 44 pin microcontroller with 2 I2C pins and 1 SPI pin. We chose it due to it's expansive datasheet and availability of external use documentation. It operates at 1.8V and has a max current of 350mA.</p>
                     </section>
                 </section>
             
                 <section id="hwprop">
                     <h2>Hardware Proposal</h2>
                     <!-- Content for Hardware Proposal section goes here -->
+                    <img src="images/teambom.png" alt="compiled subsystems">
                 </section>
             
                 <section id="swprop">
                     <h2>Software Proposal</h2>
                     <!-- Content for Software Proposal section goes here -->
+                    <img src="images/Software Proposal.jpg" alt="Software Proposal">
                 </section>
             </div>
         </main>
@@ -117,12 +139,11 @@
                 <!-- Content for Appendix section goes here -->
                 <nav id="nav2">
                     <ul>
-                        <li><a href="#teamorg">Team Organization</a></li>
-                        <li><a href="#userneeds">User Needs</a></li>
-                        <li><a href="#design">Design Ideation</a></li>
-                        <li><a href="#presentation1">Product Req Document</a></li>
-                        <li><a href="#blockdiagram">Block Diagram</a></li>
-                        <li><a href="#compsel">Component Selection</a></li>
+                        <li><a href="docs/Team Organization Charter.pdf" target="_blank">Team Organization Charter</a></li>
+                        <li><a href="docs/User Needs, Benchmarking, and Requirements.pdf" target="_blank">User Needs</a></li>
+                        <li><a href="docs/Design Ideation.pdf" target="_blank">Design Ideation</a></li>
+                        <li><a href="docs/Product Requirements Document.pdf" target="_blank">Product Req Document</a></li>
+                        <li><a href="docs/microcontrollerselectiontable.pdf" target="_blank">Microcontroller Selection Table</a></li>
                     </ul> 
                 </nav>
             </section>
