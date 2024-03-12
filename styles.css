@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	margin-block-start: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root{
+    /* COLOR THEME FROM ADOBE COLOR */
+    --dk-blue: #010326;
+    --dk-teal: #011526;
+    --lt-blue: #CEE4F2;
+    --teal: #436573;
+    --dk-gray: #0D0D0D;
+
+
+    --dk-blue-rgba: rgb(1 3 38 / 50%);
+    --dk-teal-rgba: rgb(1 21 38 / 50%);
+    --lt-blue-rgba: rgb(206 228 242 / 50%);
+    --teal-rgba: rgb(67 101 115 / 50%);
+    --dk-gray-rgba: rgb(13 13 13 / 50%);
+
+    --white: #fff;
+    --light-gray: #eaeaea;
+    --med-gray: #555;
+    
+    /* BOX SHADOW VARIABLES HERE */
+    --box-shadow-sm: -3px 3px 7px var(--med-gray);
+    --box-shadow-lg: -6px 6px 10px var(--med-gray);
+
+    /* FILTER SHADOWS HERE */
+    --filter-shadow-sm: drop-shadow(-3px 3px 7px var(--med-gray));
+    --filter-shadow-lg: drop-shadow(-6px 6px 10px var(--med-gray));
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.4;
+    color: var(--dk-gray);
+    box-sizing: border-box;
+}
+
+header{
+    padding: 1em;
+    width: calc(100% - 2rem);
+    max-width: calc(1200px - 2rem);
+    margin: 0 auto 2rem auto;
+    color: #fff;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    box-shadow: var(--box-shadow-sm);
+}
+
+h1, h2, h3{
+    font-weight: bold;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0.25rem auto;
+}
+
+nav li{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+nav a{
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    text-decoration: none;
+    background-color: var(--teal);
+    color: var(--white);
+    text-align: center;
+    box-shadow: var(--box-shadow-lg);
+}
+
+nav a:hover{
+    background-color: var(--dk-teal);
+    color: var(--white);
+    box-shadow: var(--box-shadow-sm);
+}
+
+a{
+    color: var(--dk-blue);
+    font-weight: 600;
+}
+
+a:hover{
+    color: var(--teal);
+}
+
+main{
+    width: calc(100% - 2rem);
+    max-width: calc(1200px - 2rem);
+    margin: 1rem auto;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem; */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-gap: 1rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1rem;
+    text-align: center;
+}
+
+section {
+    display: block;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--white);
+}
+
+.grid-container > section {
+    box-shadow: var(--box-shadow-sm);
+}
+
+#teamorg, #presentation1, #blockdiagram, #compsel {
+    grid-column: span 3;
+}
+
+#design {
+    grid-column: span 2;
+}
+
+#presentation1{
+    width: 700px;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+#nav2 ul{
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0.25rem auto;
+    background-color: var(--white);
+    color: var(--dk-gray);
+    box-shadow: none;
+}
+
+#nav2 a{
+    background-color: var(--white);
+    color: var(--dk-gray);
+    box-shadow: none;
+}
+
+#nav2 a:hover{
+    background-color: var(--dk-teal);
+    color: var(--white);
+    box-shadow: var(--box-shadow-sm);
+}
+
+@media screen and (min-width: 400px){
+    nav ul{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #nav2 ul{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 700px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        align-items: center;
+    }
+}
