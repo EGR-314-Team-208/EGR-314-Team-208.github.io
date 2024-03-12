@@ -223,6 +223,22 @@ section > ul > li {
     box-shadow: var(--box-shadow-sm);
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: var(--teal);
+  }
+
 #teamorg, #presentation1, #blockdiagram, #compsel, #hwprop, #swprop {
     grid-column: span 3;
 }
@@ -238,6 +254,11 @@ img{
 
 #compsel img{
     float: left;
+}
+
+#compsel td>img{
+    width: 100px;
+    height: auto;
 }
 
 #presentation1{
