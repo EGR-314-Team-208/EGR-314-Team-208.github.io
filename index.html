@@ -59,6 +59,10 @@
                     <h2>Team Organization</h2>
                     <!-- Content for Team Organization section goes here -->
                     <div class="grid2">
+                        <section>
+                            <h3> Introduction</h3>
+                            <p>The RegFan is a portable fan controlled by sensors represents a modern and efficient approach to personal cooling solutions. By integrating sensors that monitor temperature and wind speed this innovative fan offers a dynamic and responsive cooling experience tailored to individual preferences. The way that our invention works is by determining certain thresholds from a wind speed sensor and a temperature sensor once the thresholds are broken this would cause the motor to spin one direction. With the use of the temperature sensor and windspeed sensor it could be determined the most efficient times that the fan would be on. If the fan was built on a larger scale it could have many uses. For example, it could be used for livestock making it easier to take care of animals even when they are unable to be attended to, or even for large audiences so that buildings are not constantly wasting energy by using a fan when it is not needed. This introduction sets the stage for exploring the objectives, stakeholders, use cases, aspects, open questions, milestones, and an explanation of terms associated with this technology.</p>
+                        </section>
                     <section id="charter">
                         <h3>Charter</h3>
                         <!-- Content for Charter subsection goes here -->
@@ -100,10 +104,12 @@
                 </section>
             
                 <section id="blockdiagram">
-                    <h2>Block Diagram</h2>
+                    <h2>Final Block Diagram</h2>
                     <!-- Content for Block Diagram section goes here -->
                     <img src="images/Block Diagram.jpg" alt="Block Diagram">
                     <p>The wind speed sensor and motor subsystem interface through the Serial Peripheral Interface (SPI) communication protocol, enabling efficient data exchange and control. Meanwhile, the temperature sensor operates using the I2C protocol, providing accurate temperature readings. The microcontroller serves as the central orchestrator, managing communication between all subsystems and interfacing with the ESP32 for broader connectivity. This collaborative approach ensures a cohesive integration of diverse functionalities, leveraging distinct communication protocols for optimal performance and fulfilling the overall project objectives effectively.</p>
+                    <p>Our schematic satisfies user needs and requirements because it nearaly eliminates the use of wires, other than connections for the wind speed sensor and the motor which require it for our use. With the use of the ESP32 the user would be able to see the temperature and windspeed to be able to determine whether they want the device on or not.</p> 
+                    <p>Most of the changes that were made in the schematic mostly came from advice we took from TAs or smaller things like resistor values. One of the biggest changes that came after presenting was the use of a LED. Instead of connecting both sides of the motor to both outputs we had one input connected to the motor and one connected to the LED for proof that the motor could be bidirectional if we wanted it to be. </p>
                 </section>
             
                 <section id="compsel">
@@ -135,13 +141,13 @@
                           </tr>
                           <tr>
                             <td><img src="images/motor.jpg" alt=""> Motor: PKN12EB105C1</td>
-                            <td>Power rated at 2.2 W and most efficient at 290mA</td>
-                            <td>Most expensive option, not as quick as other options</td>
+                            <td>Motor works at 3.3V, decent size, would work well for product. </td>
+                            <td>The amount of current it takes in may be too much and datasheet is not too useful.</td>
                           </tr>
                           <tr>
                             <td><img src="images/voltreg.jpg" alt=""> Voltage Regulator: NCV2575D2T-5R4G</td>
-                            <td>Familiarity, adjustable 3.3V output, good documentation</td>
-                            <td>Overheats easily under over load current</td>
+                            <td>Has an adjustable regulator circuit in datasheet, is able adjust voltage to 3.3V, has a reliable current limit. </td>
+                            <td>Wide Voltage Range, although it can be helpful it may be difficult to get 3.3V out because of this. </td>
                           </tr>
                           <tr>
                             <td><img src="images/adapter.jpg" alt=""> Power Supply: 1471 12V Wall Adapter</td>
@@ -151,6 +157,9 @@
                         </tbody>
                       </table>
                     <p><a href="docs/pwbud.pdf" target="_blank">Power Budget</a></li></p>
+                    <p>
+                        
+                    </p>
 
                     <section id="microcontrollerselection">
                         <h3>Microcontroller Selection</h3>
@@ -160,15 +169,51 @@
                 </section>
             
                 <section id="hwprop">
-                    <h2>Hardware Proposal</h2>
+                    <h2>Final Hardware Implementation</h2>
                     <!-- Content for Hardware Proposal section goes here -->
                     <img src="images/teambom.png" alt="compiled subsystems">
+                    <p> As we geared up for our final software rollout, our top priority was to enable the motor speed to adapt based on inputs from both the windspeed and temperature sensors. It was something we had envisioned from the get-go but couldn't quite pull off due to time constraints. Our approach would have been to keep it simple, considering the motor's hefty power consumption. So, any speed adjustments would have been on the conservative side.</p>
+
+                    <p>Our code structure was pretty organized, with each subsystem neatly separated. But debugging was a bit of a headache since we couldn't easily check if everything was working without MQTT integration, which was a bit tricky to set up. This made pinpointing issues with certain subsystems a real challenge.</p>
+                        
+                    <p>Taking a cue from our hardware setup, adding LED indicators in the code to light up when certain thresholds were met could have been a game-changer for troubleshooting. And given more time, we would have loved to add the option to kickstart the invention using WiFi communication, making it even more user-friendly. </p>
+                    <img src="images/toppcb.png" alt="">
+                    <img src="" alt="">
                 </section>
             
                 <section id="swprop">
-                    <h2>Software Proposal</h2>
+                    <h2>Final Software Implementation</h2>
                     <!-- Content for Software Proposal section goes here -->
                     <img src="images/Software Proposal.jpg" alt="Software Proposal">
+                </section>
+
+                <section>
+                    <h2>System Verification</h2>
+                    <img src="images/Verification.png" alt="verification table">
+                </section>
+                <section>
+                    <h2>Lessons Learned</h2>
+                    <p>Throughout our journey as a team, one of the most significant lessons we embraced was the willingness to let go of a project when necessary. Despite encountering numerous challenges post the acquisition of our manufactured PCB, we persisted in pivoting and exploring various solutions. While our ultimate product didn't materialize as planned, we came remarkably close, and crucially, we gleaned invaluable insights from our missteps. Reflecting on our experience, we acknowledged that without attempting the project at all, our learning from the course would have been considerably limited.</p>
+
+                    <p>A key realization that emerged was the importance of possessing a deeper understanding of our individual subsystems and tasks. Recognizing that a broader grasp of each other's responsibilities could have expedited troubleshooting processes, we acknowledged the need for enhanced knowledge sharing within the team. Collaborative efforts proved fruitful, with the exchange of perspectives and ideas among teammates significantly enhancing the quality of our assignments.</p>
+                    
+                    <p>As the semester unfolded, we became increasingly attuned to the significance of professionalism and effective communication, particularly in public speaking engagements. While our initial struggles with presentations during checkpoint 2 underscored the necessity for improvement, our gradual development culminated in a smoother experience during the innovation showcase. Communication emerged as a critical component, with the realization that clearer communication channels could have alleviated several time-consuming and stressful situations throughout the semester.</p>
+                    
+                    <p>The importance of organized schematics became evident, serving as a cornerstone for various aspects of our project, from component values determination to troubleshooting continuity issues. Emphasizing the need for meticulousness, we recognized the value of regularly updating and referencing schematics to streamline our workflow. Additionally, we learned the imperative of thorough continuity checks, a lesson reinforced by the identification of simple yet impactful issues on our testing PCB.</p>
+                    
+                    <p>Midway through the semester, we grasped the significance of understanding our audience, a factor that influenced project modifications and decision-making processes. This newfound awareness facilitated more targeted adjustments and enhanced project alignment with stakeholders' expectations. Organization emerged as another focal point, with lapses in updating schematics highlighting the importance of maintaining structured documentation.</p>
+                    
+                    <p>Lastly, we learned a crucial lesson post-hoc: the necessity of incorporating protective measures like fuses in our schematics. Recognizing the potential for mitigating damages, such as preventing microchip failures, we acknowledged the missed opportunity and its implications for the project's outcome.</p>
+                </section>
+                <section>
+                    <h2>Recommendations for Future Students</h2>
+                    <ol>
+                        <li>As a team we had trouble soldering together our subsystem for the subsystem checkoffs, we believe the best solution would be to either own a hotplate because of the difficulty of soldering the smaller pieces.</li>
+                        <li>For the Advanced Serial Communication assignment we recommend that everyone tries their subsystem for this assignment so you have experience with it before you have to build your subsystem PCB.</li>
+                        <li>Although the professors mention this many times, make sure to record your subsystems whenever you test it. We had subsystems that worked that we did not get graded for because we were unable to provide proof that it worked.</li>
+                        <li>We recommend that future students try to complete all of the homeworks and ICCs because not only do they help a lot with your invention but they also help your grade in case anything goes wrong with your product</li>
+                        <li>Another thing we had an issue with is time management. It is best to stay on top of all assignments because it is very easy to fall behind and once you do it is very difficult to stay on track</li>
+                    </ol>
                 </section>
             </div>
         </main>
