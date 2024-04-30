@@ -134,6 +134,10 @@ dd {
     grid-gap: 1rem;
 }
 
+.grid2 section:first-of-type{
+    grid-column: 1/-1;
+}
+
 h2{
     font-size: 1.5rem;
     text-align: center;
