@@ -54,7 +54,6 @@
                     <dd>Travis Kelly</dd>
                 </dl>
             </section>
-            <div class="grid-container">
                 <section id="teamorg">
                     <h2>Team Organization</h2>
                     <!-- Content for Team Organization section goes here -->
@@ -89,18 +88,11 @@
                     <p>Every team member played the key role in the design process, we each came up with a list of ideas for a design concept which was bounced around. We used a couple of different brainstorming methods including mind mapping, figure storming, rapid ideation and analyzing customer reviews. Everyone was able to pitch their ideas and we voted on which would be the best device for our group and the projects scope. We then took these ideas and ranked them with a 3 star system, 1 being the least important and 3 being the most important. Then we created a concept of our device around the ideas we ranked so we can have the most variety and originality as possible in our device. The concepts can be found in the appendix.</p>
 
                     <section id="seldesign">
-                        <h3>Selected Design</h3>
+                        <h3>Final Selected Design</h3>
                         <!-- Content for Selected Design section goes here -->
                         <p>The design we decided to pursue was the fan concept. We chose it for a few reasons including its simplicity. The aim of our group is to produce a product that adheres as closely to the product requirements and and user needs as possible which is attainable with the simplicity of the concept. Another reason we chose the fan was because it showcases all the strengths and weaknesses of each subsystem making debugging and testing easier in the later stages of the project.</p>
-                        <img src="images/selidea.jpg" alt="Selected Design, fan with wind speed and temperature sensors">
+                        <img src="images/Reg_Fan.jpg" alt="Selected Design, fan with wind speed and temperature sensors">
                     </section>
-                </section>
-            
-                <section id="presentation1">
-                    <h2>Presentation 1</h2>
-                    <!-- Content for Presentation 1 section goes here -->
-                    <title>Team Presentation</title>
-                    <iframe width="560" height="500" src="https://www.youtube.com/embed/BGyLUJeMTC4?si=PAAvUGec24lZHuFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
             
                 <section id="blockdiagram">
@@ -108,8 +100,8 @@
                     <!-- Content for Block Diagram section goes here -->
                     <img src="images/Block Diagram.jpg" alt="Block Diagram">
                     <p>The wind speed sensor and motor subsystem interface through the Serial Peripheral Interface (SPI) communication protocol, enabling efficient data exchange and control. Meanwhile, the temperature sensor operates using the I2C protocol, providing accurate temperature readings. The microcontroller serves as the central orchestrator, managing communication between all subsystems and interfacing with the ESP32 for broader connectivity. This collaborative approach ensures a cohesive integration of diverse functionalities, leveraging distinct communication protocols for optimal performance and fulfilling the overall project objectives effectively.</p>
-                    <p>Our schematic satisfies user needs and requirements because it nearaly eliminates the use of wires, other than connections for the wind speed sensor and the motor which require it for our use. With the use of the ESP32 the user would be able to see the temperature and windspeed to be able to determine whether they want the device on or not.</p> 
-                    <p>Most of the changes that were made in the schematic mostly came from advice we took from TAs or smaller things like resistor values. One of the biggest changes that came after presenting was the use of a LED. Instead of connecting both sides of the motor to both outputs we had one input connected to the motor and one connected to the LED for proof that the motor could be bidirectional if we wanted it to be. </p>
+                    <p>The first set of components we picked were specifically to fulfil the requirements of the project. We had done a component selection and picked parts that fit our criteria and were familiar to us. However, the first motor we received was very small and unable to fulfil our primary need of having a working fan. Our voltage regulator also did not meet our requirement of being 3.3V as we had ordered a non adjustable version of the part we needed. Our block diagram was made by referencing our prd to ensure we had a cohesive project. Our block diagram met our project requirements by providing a guideline for which we selected and replaced our parts. We outlined our pins and communication protocols and when parts needed to be replaced, we referenced our diagram to ensure part compatibility</p>
+                    
                 </section>
             
                 <section id="compsel">
@@ -150,21 +142,21 @@
                             <td>Wide Voltage Range, although it can be helpful it may be difficult to get 3.3V out because of this. </td>
                           </tr>
                           <tr>
-                            <td><img src="images/adapter.jpg" alt=""> Power Supply: 1471 12V Wall Adapter</td>
+                            <td><img src="images/adapter.jpg" alt=""> Power Supply: PS-2.1-12-25WTM 12V Wall Adapter</td>
                             <td>long cable, 1 A current</td>
                             <td>12V, Requires Connector jack</td>
                           </tr>
                         </tbody>
                       </table>
-                    <p><a href="docs/pwbud.pdf" target="_blank">Power Budget</a></li></p>
+                    <img src="images/powerbudget.png" alt="">
                     <p>
-                        
+                        The major components selected were the AdaFruit 1733 anemometer, a IFX9201SGAUMA1 Motor Driver, a PKN12EB105C1 12V DC Motor, a PS-2.1-12-25WTM wall connector,a NCV2575D2T-5R4G 3.3V switching Power Supply, and a AT30TS74-SS8M-B Temperature Sensor. Next we needed to power these components, so we created a power budget to map out our power needs and what solution would best fit to satisfy those needs. The sensors pull little to no current, however the microcontroller and the motor can require a lot of current. The amount of current needed to power these components reliably led us to decide going with the 12V wall power supply that is stepped down to 3.3V to supply the specified power to the sensors,motor, and motor driver. Using the wall power supply was more feasible for this project. During our tests, we believe we were drawing way more current on our pcb than was needed. This ultimately led to us losing a few passive components which burned out and our final board unusable as we were unable to truly find the cause.
                     </p>
 
                     <section id="microcontrollerselection">
                         <h3>Microcontroller Selection</h3>
                         <!-- Content for Microcontroller Selection section goes here -->
-                        <p><img src="images/medium-pic18f46k42-tqfp-44.jpg" alt="PIC18F46K42">Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 44 pin microcontroller with 2 I2C pins and 1 SPI pin. We chose it due to it's expansive datasheet and availability of external use documentation. It operates at 1.8V and has a max current of 350mA.</p>
+                        <p><img src="images/medium-pic18f46k42-tqfp-44.jpg" alt="PIC18F46K42" width="100" height="auto">Our chosen microcontroller is PIC18F46K42. It is an 8-bit, 44 pin microcontroller with 2 I2C pins and 1 SPI pin. We chose it due to it's expansive datasheet and availability of external use documentation. It operates at 1.8V and has a max current of 350mA.</p>
                     </section>
                 </section>
             
@@ -172,24 +164,73 @@
                     <h2>Final Hardware Implementation</h2>
                     <!-- Content for Hardware Proposal section goes here -->
                     <img src="images/teambom.png" alt="compiled subsystems">
-                    <p> As we geared up for our final software rollout, our top priority was to enable the motor speed to adapt based on inputs from both the windspeed and temperature sensors. It was something we had envisioned from the get-go but couldn't quite pull off due to time constraints. Our approach would have been to keep it simple, considering the motor's hefty power consumption. So, any speed adjustments would have been on the conservative side.</p>
 
-                    <p>Our code structure was pretty organized, with each subsystem neatly separated. But debugging was a bit of a headache since we couldn't easily check if everything was working without MQTT integration, which was a bit tricky to set up. This made pinpointing issues with certain subsystems a real challenge.</p>
-                        
-                    <p>Taking a cue from our hardware setup, adding LED indicators in the code to light up when certain thresholds were met could have been a game-changer for troubleshooting. And given more time, we would have loved to add the option to kickstart the invention using WiFi communication, making it even more user-friendly. </p>
+                    <p> Our schematic satisfies user needs and requirements because it nearaly eliminates the use of wires, other than connections for the wind speed sensor and the motor which require it for our use. With the use of the ESP32 the user would be able to see the temperature and windspeed to be able to determine whether they want the device on or not.</p>
+
+                    <p>Most of the changes that were made in the schematic mostly came from advice we took from TAs or smaller things like resistor values. One of the biggest changes that came after presenting was the use of a LED. Instead of connecting both sides of the motor to both outputs we had one input connected to the motor and one connected to the LED for proof that the motor could be bidirectional if we wanted it to be.</p>
+                    
                     <img src="images/toppcb.png" alt="">
-                    <img src="" alt="">
+                    <img src="images/proto1.jpg" alt="" width="500" height="auto">
+                    <img src="images/proto2.jpg" alt="" width="500" height="auto">
+                    <img src="images/PCB.jpg" alt="physical pcb board" width="500" height="auto">
+                    <img src="images/bottomboard.jpg" alt="" width="500" height="auto">
+                    <p>We were able to make our final design with the use of our testing PCB. For our prototype board we were using a ton of wires and we learned and realized that all of those wires were not ideal. We also learned that a motor constantly changing directions would not be good for the system because it uses up a lot of power so we changed one of the output pins of the motor to a LED</p>
+
+                    <p>For our second version the main component that we were missing from our PCB had to be a fuse. Although at first we were unsure of how to implement a fuse once we learned we realized that it would have been very important. Another thing we possibly should have done differently was making our PCB design more simple and organized. At first glance the PCB looked amazing to all of us however once we began working on it, it kept shorting and we could not figure out why when we would continuity test it. Once we asked for help from TAs they wanted to look at our schematics but they would not have been able to figure out what was wrong with it without taking it apart because of how messy they said it is. Another thing we would have liked to have done differently was our power source, due to time constraints we were kind of stuck with using a power jack however we believe it would have looked much better if we used something like a battery or any other power source. Finally we wish we had more debugging LEDs on our final board, we made use of some when using our protoboard however we decided that we would not have needed them for our final prototype and this really caused us difficulties. Although it would not have changed much because our PCB was shorting somewhere it definitely would have allowed us to realize sooner that we would not have been able to fix our PCB earlier on.</p>
                 </section>
             
                 <section id="swprop">
                     <h2>Final Software Implementation</h2>
                     <!-- Content for Software Proposal section goes here -->
-                    <img src="images/Software Proposal.jpg" alt="Software Proposal">
+                    <img src="images/Software Proposal.jpg" alt="Software Proposal" width="700px" height="500px">
+                    <ol>
+                        <li>We noticed that we were unable to get any readings from the UART but it was because we were using data bytes and they were unable to be read without the proper code, which is a change we were able to make last second.</li>
+                        <li>There were changes made in the code for the motor driver code to help with possible debugging, we added an led to simulate movement in the motor</li>
+                        <li>Changes had to be made of the pins we used because we had to be careful with the UART pins and output pins.</li>
+                        <li>We added a delay which would prevent the code from constantly reading.</li>
+                        <li>For our software proposal we didn't implement the code for the ESP32 which is something that we added in last second.</li>
+                    </ol>
+                    <p> As we geared up for our final software rollout, our top priority was to enable the motor speed to adapt based on inputs from both the windspeed and temperature sensors. It was something we had envisioned from the get-go but couldn't quite pull off due to time constraints. Our approach would have been to keep it simple, considering the motor's hefty power consumption. So, any speed adjustments would have been on the conservative side.</p>
+
+                    <p>Our code structure was pretty organized, with each subsystem neatly separated. But debugging was a bit of a headache since we couldn't easily check if everything was working without MQTT integration, which was a bit tricky to set up. This made pinpointing issues with certain subsystems a real challenge.</p>
+                        
+                    <p>Taking a cue from our hardware setup, adding LED indicators in the code to light up when certain thresholds were met could have been a game-changer for troubleshooting. And given more time, we would have loved to add the option to kickstart the invention using WiFi communication, making it even more user-friendly. </p>
+                    <p>The current fan control system's software design can benefit from several improvements in Version 2.0. These enhancements aim to create a more robust, reliable, and maintainable system.
+                    Enhanced Robustness: The current design lacks explicit error handling. Version 2.0 should incorporate checks for invalid sensor data or communication errors. Error messages can be logged or displayed to aid in troubleshooting, improving the system's ability to handle unexpected situations.
+                        
+                    Modular Design with State Machine: Instead of a simple loop, a state machine can manage the different operational states of the control system. This state machine, encompassing states like initialization, normal operation, shutdown, and fault mode, would make the code more modular and easier to understand.
+                        
+                    Improved Readability and Maintainability: The current code can be improved by dividing it into smaller, well-defined functions. These functions, dedicated to tasks like initialization, sensor data reading, control output calculations, and peripheral communication, would enhance readability and maintainability.
+                        
+                    Real-Time Accuracy: To ensure control actions are taken at the appropriate intervals, Version 2.0 should utilize a real-time clock (RTC) peripheral for accurate timing within the control loops.
+                        
+                    Reliable Communication: The communication protocol can be strengthened by including error checking and data validation. This ensures the integrity of the data being transmitted between the control system and other subsystems.
+                        
+                    An improved software design would have the following structure:
+                    <section>
+                        Initialization: The system would configure hardware peripherals during initialization.<br>
+                        Main Loop: Continuously:<br>
+                        Read sensor data.<br>
+                        Calculate control outputs based on sensor readings and the current state.<br>
+                        Handle and log/display errors if detected.<br>
+                        Send control outputs to the motor and communication subsystems.<br>
+                        State Machine: Controls the program flow, including states like:<br>
+                        Initialization: System initialization occurs here.<br>
+                        Normal Operation: Sensor readings are taken, control outputs are calculated, and sent to peripherals.<br>
+                        Shutdown: The system prepares for shutdown, stopping the motor and closing communication channels.<br>
+                        Fault Mode: The system enters a safe state due to an error, with potential fault recovery actions.<br>
+                        Communication Subsystem: Responsible for sending and receiving data with error checking and data validation for improved reliability.<br>
+                        Motor Subsystem: Receives control signals and controls the motor accordingly.<br>
+                    </section>
+
+                    With these improvements, a version 2.0 would be a significant upgrade for the fan control system.
+                    </p>
+                    <img src="images/Topic Table.png" alt="topic table for mqtt">
                 </section>
 
                 <section>
                     <h2>System Verification</h2>
-                    <img src="images/Verification.png" alt="verification table">
+                    <img src="images/Verification.png" alt="verification table" width="700" height="auto">
                 </section>
                 <section>
                     <h2>Lessons Learned</h2>
@@ -215,7 +256,6 @@
                         <li>Another thing we had an issue with is time management. It is best to stay on top of all assignments because it is very easy to fall behind and once you do it is very difficult to stay on track</li>
                     </ol>
                 </section>
-            </div>
         </main>
 
         <footer>
